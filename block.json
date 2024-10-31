@@ -1,0 +1,8 @@
+{
+    "apiVersion": 2,
+    "title": "Ninjaworkspace",
+    "name": "ninjaworkspace-blocks/ninjaworkspace",
+    "category": "layout",
+    "icon": "shortcode",
+    "editorScript": "file:./block.js"
+}

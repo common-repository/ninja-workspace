@@ -1,0 +1,156 @@
+.wrap .width_content_cust{
+	display:flex;
+	column-gap: 20px;
+	justify-content: space-between;
+	margin: 15px 0px 25px 0px;
+}
+.wrap .width_content_cust .field_data {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+}
+.iframe_ninjaworkspace_tab h2, .popup_ninjaworkspace_tab h2 {
+    background: #2e3439;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+	font-size: 14px;
+}
+.wrap h2.nav-tab-wrapper{
+	background: #131518;
+	padding-top:0px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+    overflow: hidden;
+}
+.ninjaworkspace_tabs_section .nav-tab{
+	margin-left: 0px;
+	margin-right: 0px;
+	background:  #1a1c1f;
+	color: #fff;
+	border:none;
+	padding: 10px 25px;
+	font-size: 16px;
+}
+.ninjaworkspace_tabs_section .nav-tab.nav-tab-active{
+	background: #64cccc;
+	color: #fff;
+	box-shadow: none;
+}
+.popup_ninjaworkspace_tab label {
+    min-width: 210px;
+    display: inline-flex;
+    background: #e7d5fd;
+    padding: 10px;
+    margin-right: 50px;
+}
+.popup_ninjaworkspace_tab .popup_data{
+	margin-block: 12px;
+}
+.tab-content.iframe_ninjaworkspace_tab {
+	background: white;
+    padding: 20px 20px 10px;
+}
+.iframe_ninjaworkspace_tab .field_data input {
+    background: #f1f5f9;
+    width: 95%;
+    border: none;
+}
+.tab-content.popup_ninjaworkspace_tab {
+	background: white;
+    padding: 20px 20px 2px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+.field_data label {
+	margin-bottom: 5px;
+}
+.tab-content.iframe_ninjaworkspace_tab .submit {
+	margin-top: 40px;
+}
+.wp-core-ui .iframe_ninjaworkspace_tab .button.button-primary, .wp-core-ui .popup_ninjaworkspace_tab .button.button-primary{
+	background: #64cccc; 
+	color: #fff; 
+}
+.wp-core-ui .iframe_ninjaworkspace_tab .button.button-primary:hover, .wp-core-ui .popup_ninjaworkspace_tab .button.button-primary:hover{
+	background: #fff;
+	color: #64cccc;
+	border-color:#64cccc ;
+}
+.wp-core-ui .iframe_ninjaworkspace_tab .button, .wp-core-ui .popup_ninjaworkspace_tab .button{
+	padding: 0px 8px;
+    border-radius: 2px;
+	font-weight: 600;
+	margin: 0px 4px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-out;
+	font-size: 0.95rem;
+	border:2px solid #64cccc;
+	background:#fff;
+	color:#64cccc;
+	min-width: 70px;
+}
+.wp-core-ui .iframe_ninjaworkspace_tab .button:hover, .wp-core-ui .popup_ninjaworkspace_tab .button:hover{
+	background: #1a1c1f;
+	color: #fff;
+	border-color: #1a1c1f;
+}
+.popup_main_warpper .popup_data span.checkbox_headings {
+    margin-left: 45px;
+}
+.popup_main_warpper .popup_data input[type=checkbox]:focus{
+	box-shadow: none;
+}
+#ninjaworkspace_desktop_checkbox, #ninjaworkspace_laptop_checkbox, #ninjaworkspace_tablet_checkbox, #ninjaworkspace_mobile_checkbox  {
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin: 10px;
+}
+#ninjaworkspace_desktop_checkbox:after, #ninjaworkspace_laptop_checkbox:after, #ninjaworkspace_tablet_checkbox:after, #ninjaworkspace_mobile_checkbox:after {
+	content: '';
+	width: 60px;
+	height: 28px;
+	display: inline-block;
+	background: rgba(196, 195, 195, 0.55);
+	border-radius: 18px;
+	clear: both;
+	margin-top: -4px;
+}
+#ninjaworkspace_desktop_checkbox:before, #ninjaworkspace_laptop_checkbox:before, #ninjaworkspace_tablet_checkbox:before, #ninjaworkspace_mobile_checkbox:before {
+	content: '';
+	width: 32px;
+	height: 32px;
+	display: block; 
+	position: absolute;
+	left: 0;
+	top: -8px;
+    border: 2px solid #000;
+	border-radius: 50%;
+	background: rgb(255, 255, 255);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+#ninjaworkspace_desktop_checkbox:checked:before, #ninjaworkspace_laptop_checkbox:checked:before, #ninjaworkspace_tablet_checkbox:checked:before, #ninjaworkspace_mobile_checkbox:checked:before {
+	left: 32px;
+	margin: 0 0 -0.25rem;
+	border: 2px solid #2e3439;
+	box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+#ninjaworkspace_desktop_checkbox:checked:after, #ninjaworkspace_laptop_checkbox:checked:after, #ninjaworkspace_tablet_checkbox:checked:after, #ninjaworkspace_mobile_checkbox:checked:after  {
+	background: #64cccc;
+}
+#ninjaworkspace_desktop_checkbox, #ninjaworkspace_desktop_checkbox:before, #ninjaworkspace_desktop_checkbox:after, #ninjaworkspace_desktop_checkbox:checked:before, #ninjaworkspace_desktop_checkbox:checked:after, #ninjaworkspace_laptop_checkbox, #ninjaworkspace_laptop_checkbox:before, #ninjaworkspace_laptop_checkbox:after, #ninjaworkspace_laptop_checkbox:checked:before, #ninjaworkspace_laptop_checkbox:checked:after, #ninjaworkspace_tablet_checkbox, #ninjaworkspace_tablet_checkbox:before, #ninjaworkspace_tablet_checkbox:after, #ninjaworkspace_tablet_checkbox:checked:before, #ninjaworkspace_tablet_checkbox:checked:after, #ninjaworkspace_mobile_checkbox, #ninjaworkspace_mobile_checkbox:before, #ninjaworkspace_mobile_checkbox:after, #ninjaworkspace_mobile_checkbox:checked:before, #ninjaworkspace_mobile_checkbox:checked:after{
+	transition: ease .3s;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	-o-transition: ease .3s;
+}
+.popup_main_warpper .popup_data {
+    padding: 8px;
+}
+.popup_main_warpper .popup_data span.popup-cust_width {
+    margin-left: 6px;
+}
